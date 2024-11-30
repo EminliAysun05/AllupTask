@@ -1,0 +1,351 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\namjoon\\source\\repos\\Pb303ApiDemoooo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{33D912F3-2066-4F66-AB31-A19F908878FD}|Allup.MVC\\Allup.MVC.csproj|c:\\users\\namjoon\\source\\repos\\pb303apidemoooo\\allup.mvc\\controllers\\basketcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33D912F3-2066-4F66-AB31-A19F908878FD}|Allup.MVC\\Allup.MVC.csproj|solutionrelative:allup.mvc\\controllers\\basketcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33D912F3-2066-4F66-AB31-A19F908878FD}|Allup.MVC\\Allup.MVC.csproj|c:\\users\\namjoon\\source\\repos\\pb303apidemoooo\\allup.mvc\\views\\basket\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{33D912F3-2066-4F66-AB31-A19F908878FD}|Allup.MVC\\Allup.MVC.csproj|solutionrelative:allup.mvc\\views\\basket\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B42604E0-7578-4AF0-98A6-D36B162F3C3D}|Allup.Application\\Allup.Application.csproj|c:\\users\\namjoon\\source\\repos\\pb303apidemoooo\\allup.application\\ui\\services\\implementations\\basketuiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B42604E0-7578-4AF0-98A6-D36B162F3C3D}|Allup.Application\\Allup.Application.csproj|solutionrelative:allup.application\\ui\\services\\implementations\\basketuiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B42604E0-7578-4AF0-98A6-D36B162F3C3D}|Allup.Application\\Allup.Application.csproj|c:\\users\\namjoon\\source\\repos\\pb303apidemoooo\\allup.application\\ui\\services\\abstracts\\ibasketuiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B42604E0-7578-4AF0-98A6-D36B162F3C3D}|Allup.Application\\Allup.Application.csproj|solutionrelative:allup.application\\ui\\services\\abstracts\\ibasketuiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B42604E0-7578-4AF0-98A6-D36B162F3C3D}|Allup.Application\\Allup.Application.csproj|c:\\users\\namjoon\\source\\repos\\pb303apidemoooo\\allup.application\\services\\abstracts\\ibasketservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B42604E0-7578-4AF0-98A6-D36B162F3C3D}|Allup.Application\\Allup.Application.csproj|solutionrelative:allup.application\\services\\abstracts\\ibasketservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B42604E0-7578-4AF0-98A6-D36B162F3C3D}|Allup.Application\\Allup.Application.csproj|c:\\users\\namjoon\\source\\repos\\pb303apidemoooo\\allup.application\\services\\implementations\\basketmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B42604E0-7578-4AF0-98A6-D36B162F3C3D}|Allup.Application\\Allup.Application.csproj|solutionrelative:allup.application\\services\\implementations\\basketmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33D912F3-2066-4F66-AB31-A19F908878FD}|Allup.MVC\\Allup.MVC.csproj|c:\\users\\namjoon\\source\\repos\\pb303apidemoooo\\allup.mvc\\controllers\\wishlistcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33D912F3-2066-4F66-AB31-A19F908878FD}|Allup.MVC\\Allup.MVC.csproj|solutionrelative:allup.mvc\\controllers\\wishlistcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C488224-C0DD-479D-8BEA-308C2622F428}|Allup.Persistence\\Allup.Persistence.csproj|c:\\users\\namjoon\\source\\repos\\pb303apidemoooo\\allup.persistence\\persistenceserviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C488224-C0DD-479D-8BEA-308C2622F428}|Allup.Persistence\\Allup.Persistence.csproj|solutionrelative:allup.persistence\\persistenceserviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B42604E0-7578-4AF0-98A6-D36B162F3C3D}|Allup.Application\\Allup.Application.csproj|c:\\users\\namjoon\\source\\repos\\pb303apidemoooo\\allup.application\\services\\implementations\\wishlistmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B42604E0-7578-4AF0-98A6-D36B162F3C3D}|Allup.Application\\Allup.Application.csproj|solutionrelative:allup.application\\services\\implementations\\wishlistmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B42604E0-7578-4AF0-98A6-D36B162F3C3D}|Allup.Application\\Allup.Application.csproj|c:\\users\\namjoon\\source\\repos\\pb303apidemoooo\\allup.application\\viewmodels\\topheaderviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B42604E0-7578-4AF0-98A6-D36B162F3C3D}|Allup.Application\\Allup.Application.csproj|solutionrelative:allup.application\\viewmodels\\topheaderviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C488224-C0DD-479D-8BEA-308C2622F428}|Allup.Persistence\\Allup.Persistence.csproj|c:\\users\\namjoon\\source\\repos\\pb303apidemoooo\\allup.persistence\\migrations\\20241129172055_addbasketitems.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C488224-C0DD-479D-8BEA-308C2622F428}|Allup.Persistence\\Allup.Persistence.csproj|solutionrelative:allup.persistence\\migrations\\20241129172055_addbasketitems.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C488224-C0DD-479D-8BEA-308C2622F428}|Allup.Persistence\\Allup.Persistence.csproj|c:\\users\\namjoon\\source\\repos\\pb303apidemoooo\\allup.persistence\\migrations\\20241129171515_jsjsjjs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C488224-C0DD-479D-8BEA-308C2622F428}|Allup.Persistence\\Allup.Persistence.csproj|solutionrelative:allup.persistence\\migrations\\20241129171515_jsjsjjs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C488224-C0DD-479D-8BEA-308C2622F428}|Allup.Persistence\\Allup.Persistence.csproj|c:\\users\\namjoon\\source\\repos\\pb303apidemoooo\\allup.persistence\\migrations\\20241128151145_addwishlisttable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C488224-C0DD-479D-8BEA-308C2622F428}|Allup.Persistence\\Allup.Persistence.csproj|solutionrelative:allup.persistence\\migrations\\20241128151145_addwishlisttable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C488224-C0DD-479D-8BEA-308C2622F428}|Allup.Persistence\\Allup.Persistence.csproj|c:\\users\\namjoon\\source\\repos\\pb303apidemoooo\\allup.persistence\\migrations\\20241121152658_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C488224-C0DD-479D-8BEA-308C2622F428}|Allup.Persistence\\Allup.Persistence.csproj|solutionrelative:allup.persistence\\migrations\\20241121152658_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C488224-C0DD-479D-8BEA-308C2622F428}|Allup.Persistence\\Allup.Persistence.csproj|c:\\users\\namjoon\\source\\repos\\pb303apidemoooo\\allup.persistence\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C488224-C0DD-479D-8BEA-308C2622F428}|Allup.Persistence\\Allup.Persistence.csproj|solutionrelative:allup.persistence\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B42604E0-7578-4AF0-98A6-D36B162F3C3D}|Allup.Application\\Allup.Application.csproj|c:\\users\\namjoon\\source\\repos\\pb303apidemoooo\\allup.application\\applicationserviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B42604E0-7578-4AF0-98A6-D36B162F3C3D}|Allup.Application\\Allup.Application.csproj|solutionrelative:allup.application\\applicationserviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33D912F3-2066-4F66-AB31-A19F908878FD}|Allup.MVC\\Allup.MVC.csproj|c:\\users\\namjoon\\source\\repos\\pb303apidemoooo\\allup.mvc\\views\\shared\\components\\topheader\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{33D912F3-2066-4F66-AB31-A19F908878FD}|Allup.MVC\\Allup.MVC.csproj|solutionrelative:allup.mvc\\views\\shared\\components\\topheader\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33D912F3-2066-4F66-AB31-A19F908878FD}|Allup.MVC\\Allup.MVC.csproj|c:\\users\\namjoon\\source\\repos\\pb303apidemoooo\\allup.mvc\\viewcomponenets\\topheaderviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33D912F3-2066-4F66-AB31-A19F908878FD}|Allup.MVC\\Allup.MVC.csproj|solutionrelative:allup.mvc\\viewcomponenets\\topheaderviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33D912F3-2066-4F66-AB31-A19F908878FD}|Allup.MVC\\Allup.MVC.csproj|c:\\users\\namjoon\\source\\repos\\pb303apidemoooo\\allup.mvc\\controllers\\localizercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33D912F3-2066-4F66-AB31-A19F908878FD}|Allup.MVC\\Allup.MVC.csproj|solutionrelative:allup.mvc\\controllers\\localizercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 22,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IBasketService.cs",
+              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\Pb303ApiDemoooo\\Allup.Application\\Services\\Abstracts\\IBasketService.cs",
+              "RelativeDocumentMoniker": "Allup.Application\\Services\\Abstracts\\IBasketService.cs",
+              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\Pb303ApiDemoooo\\Allup.Application\\Services\\Abstracts\\IBasketService.cs",
+              "RelativeToolTip": "Allup.Application\\Services\\Abstracts\\IBasketService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAsAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T17:32:59.917Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\Pb303ApiDemoooo\\Allup.MVC\\Views\\Basket\\Index.cshtml",
+              "RelativeDocumentMoniker": "Allup.MVC\\Views\\Basket\\Index.cshtml",
+              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\Pb303ApiDemoooo\\Allup.MVC\\Views\\Basket\\Index.cshtml",
+              "RelativeToolTip": "Allup.MVC\\Views\\Basket\\Index.cshtml",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAIwFMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-29T17:26:24.839Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "20241129172055_AddBasketItems.cs",
+              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\Pb303ApiDemoooo\\Allup.Persistence\\Migrations\\20241129172055_AddBasketItems.cs",
+              "RelativeDocumentMoniker": "Allup.Persistence\\Migrations\\20241129172055_AddBasketItems.cs",
+              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\Pb303ApiDemoooo\\Allup.Persistence\\Migrations\\20241129172055_AddBasketItems.cs",
+              "RelativeToolTip": "Allup.Persistence\\Migrations\\20241129172055_AddBasketItems.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T17:20:56.079Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "20241128151145_AddWishlistTable.cs",
+              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\Pb303ApiDemoooo\\Allup.Persistence\\Migrations\\20241128151145_AddWishlistTable.cs",
+              "RelativeDocumentMoniker": "Allup.Persistence\\Migrations\\20241128151145_AddWishlistTable.cs",
+              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\Pb303ApiDemoooo\\Allup.Persistence\\Migrations\\20241128151145_AddWishlistTable.cs",
+              "RelativeToolTip": "Allup.Persistence\\Migrations\\20241128151145_AddWishlistTable.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T17:20:24.475Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "20241121152658_Init.cs",
+              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\Pb303ApiDemoooo\\Allup.Persistence\\Migrations\\20241121152658_Init.cs",
+              "RelativeDocumentMoniker": "Allup.Persistence\\Migrations\\20241121152658_Init.cs",
+              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\Pb303ApiDemoooo\\Allup.Persistence\\Migrations\\20241121152658_Init.cs",
+              "RelativeToolTip": "Allup.Persistence\\Migrations\\20241121152658_Init.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T17:20:17.922Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\Pb303ApiDemoooo\\Allup.Persistence\\Context\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Allup.Persistence\\Context\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\Pb303ApiDemoooo\\Allup.Persistence\\Context\\AppDbContext.cs",
+              "RelativeToolTip": "Allup.Persistence\\Context\\AppDbContext.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAA0wBUAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T17:16:18.286Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "20241129171515_jsjsjjs.cs",
+              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\Pb303ApiDemoooo\\Allup.Persistence\\Migrations\\20241129171515_jsjsjjs.cs",
+              "RelativeDocumentMoniker": "Allup.Persistence\\Migrations\\20241129171515_jsjsjjs.cs",
+              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\Pb303ApiDemoooo\\Allup.Persistence\\Migrations\\20241129171515_jsjsjjs.cs",
+              "RelativeToolTip": "Allup.Persistence\\Migrations\\20241129171515_jsjsjjs.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T17:15:15.555Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Default.cshtml",
+              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\Pb303ApiDemoooo\\Allup.MVC\\Views\\Shared\\Components\\TopHeader\\Default.cshtml",
+              "RelativeDocumentMoniker": "Allup.MVC\\Views\\Shared\\Components\\TopHeader\\Default.cshtml",
+              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\Pb303ApiDemoooo\\Allup.MVC\\Views\\Shared\\Components\\TopHeader\\Default.cshtml",
+              "RelativeToolTip": "Allup.MVC\\Views\\Shared\\Components\\TopHeader\\Default.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-29T17:05:10.294Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IBasketUiService.cs",
+              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\Pb303ApiDemoooo\\Allup.Application\\UI\\Services\\Abstracts\\IBasketUiService.cs",
+              "RelativeDocumentMoniker": "Allup.Application\\UI\\Services\\Abstracts\\IBasketUiService.cs",
+              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\Pb303ApiDemoooo\\Allup.Application\\UI\\Services\\Abstracts\\IBasketUiService.cs",
+              "RelativeToolTip": "Allup.Application\\UI\\Services\\Abstracts\\IBasketUiService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAwAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T17:03:30.577Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "TopHeaderViewComponent.cs",
+              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\Pb303ApiDemoooo\\Allup.MVC\\ViewComponenets\\TopHeaderViewComponent.cs",
+              "RelativeDocumentMoniker": "Allup.MVC\\ViewComponenets\\TopHeaderViewComponent.cs",
+              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\Pb303ApiDemoooo\\Allup.MVC\\ViewComponenets\\TopHeaderViewComponent.cs",
+              "RelativeToolTip": "Allup.MVC\\ViewComponenets\\TopHeaderViewComponent.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwDEAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T16:58:21.257Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "LocalizerController.cs",
+              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\Pb303ApiDemoooo\\Allup.MVC\\Controllers\\LocalizerController.cs",
+              "RelativeDocumentMoniker": "Allup.MVC\\Controllers\\LocalizerController.cs",
+              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\Pb303ApiDemoooo\\Allup.MVC\\Controllers\\LocalizerController.cs",
+              "RelativeToolTip": "Allup.MVC\\Controllers\\LocalizerController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T16:55:48.38Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "TopHeaderViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\Pb303ApiDemoooo\\Allup.Application\\ViewModels\\TopHeaderViewModel.cs",
+              "RelativeDocumentMoniker": "Allup.Application\\ViewModels\\TopHeaderViewModel.cs",
+              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\Pb303ApiDemoooo\\Allup.Application\\ViewModels\\TopHeaderViewModel.cs",
+              "RelativeToolTip": "Allup.Application\\ViewModels\\TopHeaderViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T16:52:52.945Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "WishlistManager.cs",
+              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\Pb303ApiDemoooo\\Allup.Application\\Services\\Implementations\\WishlistManager.cs",
+              "RelativeDocumentMoniker": "Allup.Application\\Services\\Implementations\\WishlistManager.cs",
+              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\Pb303ApiDemoooo\\Allup.Application\\Services\\Implementations\\WishlistManager.cs",
+              "RelativeToolTip": "Allup.Application\\Services\\Implementations\\WishlistManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T16:46:23.031Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BasketManager.cs",
+              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\Pb303ApiDemoooo\\Allup.Application\\Services\\Implementations\\BasketManager.cs",
+              "RelativeDocumentMoniker": "Allup.Application\\Services\\Implementations\\BasketManager.cs",
+              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\Pb303ApiDemoooo\\Allup.Application\\Services\\Implementations\\BasketManager.cs",
+              "RelativeToolTip": "Allup.Application\\Services\\Implementations\\BasketManager.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAqwA4AAABsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T16:45:50.719Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PersistenceServiceRegistration.cs",
+              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\Pb303ApiDemoooo\\Allup.Persistence\\PersistenceServiceRegistration.cs",
+              "RelativeDocumentMoniker": "Allup.Persistence\\PersistenceServiceRegistration.cs",
+              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\Pb303ApiDemoooo\\Allup.Persistence\\PersistenceServiceRegistration.cs",
+              "RelativeToolTip": "Allup.Persistence\\PersistenceServiceRegistration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T16:42:50.974Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ApplicationServiceRegistration.cs",
+              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\Pb303ApiDemoooo\\Allup.Application\\ApplicationServiceRegistration.cs",
+              "RelativeDocumentMoniker": "Allup.Application\\ApplicationServiceRegistration.cs",
+              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\Pb303ApiDemoooo\\Allup.Application\\ApplicationServiceRegistration.cs",
+              "RelativeToolTip": "Allup.Application\\ApplicationServiceRegistration.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAQwB4AAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T16:42:03.707Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BasketUiService.cs",
+              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\Pb303ApiDemoooo\\Allup.Application\\UI\\Services\\Implementations\\BasketUiService.cs",
+              "RelativeDocumentMoniker": "Allup.Application\\UI\\Services\\Implementations\\BasketUiService.cs",
+              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\Pb303ApiDemoooo\\Allup.Application\\UI\\Services\\Implementations\\BasketUiService.cs",
+              "RelativeToolTip": "Allup.Application\\UI\\Services\\Implementations\\BasketUiService.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAzwBkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T16:40:34.314Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "WishlistController.cs",
+              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\Pb303ApiDemoooo\\Allup.MVC\\Controllers\\WishlistController.cs",
+              "RelativeDocumentMoniker": "Allup.MVC\\Controllers\\WishlistController.cs",
+              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\Pb303ApiDemoooo\\Allup.MVC\\Controllers\\WishlistController.cs",
+              "RelativeToolTip": "Allup.MVC\\Controllers\\WishlistController.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAA3wAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T16:36:03.35Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BasketController.cs",
+              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\Pb303ApiDemoooo\\Allup.MVC\\Controllers\\BasketController.cs",
+              "RelativeDocumentMoniker": "Allup.MVC\\Controllers\\BasketController.cs",
+              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\Pb303ApiDemoooo\\Allup.MVC\\Controllers\\BasketController.cs",
+              "RelativeToolTip": "Allup.MVC\\Controllers\\BasketController.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAgwCcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T16:36:02.164Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

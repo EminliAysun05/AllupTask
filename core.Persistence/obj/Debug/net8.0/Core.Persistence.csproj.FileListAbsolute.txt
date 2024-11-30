@@ -1,0 +1,13 @@
+C:\Users\namjoon\Source\Repos\Pb303ApiDemoooo\core.Persistence\bin\Debug\net8.0\Core.Persistence.deps.json
+C:\Users\namjoon\Source\Repos\Pb303ApiDemoooo\core.Persistence\bin\Debug\net8.0\Core.Persistence.dll
+C:\Users\namjoon\Source\Repos\Pb303ApiDemoooo\core.Persistence\bin\Debug\net8.0\Core.Persistence.pdb
+C:\Users\namjoon\Source\Repos\Pb303ApiDemoooo\core.Persistence\obj\Debug\net8.0\Core.Persistence.csproj.AssemblyReference.cache
+C:\Users\namjoon\Source\Repos\Pb303ApiDemoooo\core.Persistence\obj\Debug\net8.0\Core.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\namjoon\Source\Repos\Pb303ApiDemoooo\core.Persistence\obj\Debug\net8.0\Core.Persistence.AssemblyInfoInputs.cache
+C:\Users\namjoon\Source\Repos\Pb303ApiDemoooo\core.Persistence\obj\Debug\net8.0\Core.Persistence.AssemblyInfo.cs
+C:\Users\namjoon\Source\Repos\Pb303ApiDemoooo\core.Persistence\obj\Debug\net8.0\Core.Persistence.csproj.CoreCompileInputs.cache
+C:\Users\namjoon\Source\Repos\Pb303ApiDemoooo\core.Persistence\obj\Debug\net8.0\Core.Persistence.sourcelink.json
+C:\Users\namjoon\Source\Repos\Pb303ApiDemoooo\core.Persistence\obj\Debug\net8.0\Core.Persistence.dll
+C:\Users\namjoon\Source\Repos\Pb303ApiDemoooo\core.Persistence\obj\Debug\net8.0\refint\Core.Persistence.dll
+C:\Users\namjoon\Source\Repos\Pb303ApiDemoooo\core.Persistence\obj\Debug\net8.0\Core.Persistence.pdb
+C:\Users\namjoon\Source\Repos\Pb303ApiDemoooo\core.Persistence\obj\Debug\net8.0\ref\Core.Persistence.dll

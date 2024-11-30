@@ -1,0 +1,81 @@
+﻿@model TopHeaderViewModel
+
+<div class="header-nav">
+    <div class="container-fluid custom-container">
+        <div class="header-nav-wrapper d-flex justify-content-between">
+            <div class="header-static-nav">
+                <p>Get FREE Shipping with <span class="text">$35!</span> Code: FREESHIPPING</p>
+            </div>
+            <div class="header-menu-nav">
+                <ul class="menu-nav">
+                    <li>
+                        <a asp-controller="compare" asp-action="index">
+                            <i class="fal fa-repeat"></i> Compare
+                            <span id="compareItemCount">(@Model.CompareItemCount)</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a asp-controller="wishlist" asp-action="index">
+                            <i class="fal fa-heart"></i> Wishlist
+                            <span id="wishlistItemCount">(@Model.WishlistItemCount)</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a asp-controller="basket" asp-action="index">
+                            <i class="fal fa-shopping-bag"></i> Basket
+                            <span id="basketItemCount">(@Model.BasketItemCount)</span>
+                        </a>
+                    </li>
+                    <li>
+                        <div class="dropdown">
+                            <button type="button" id="setting" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Setting <i class="icon ion-chevron-down"></i>
+                            </button>
+                            <ul class="dropdown-menu" aria-labelledby="setting">
+                                <li><a href="my-account.html">My account</a></li>
+                                <li><a href="checkout.html">Checkout</a></li>
+                                <li><a href="login.html">Sign in</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="dropdown">
+                            <button type="button" id="currency" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                @Model.SelectedCurrency?.Name <i class="icon ion-chevron-down"></i>
+                            </button>
+                            <ul class="dropdown-menu" aria-labelledby="currency">
+                                @foreach (var item in Model.Currencies ?? new List<CurrencyViewModel>())
+                                {
+                                    <li>
+                                        <a asp-controller="localizer" asp-action="changecurrency" asp-route-code="@item.IsoCode">
+                                            @item.Name
+                                        </a>
+                                    </li>
+                                }
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="dropdown">
+                            <button type="button" id="language" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <img src="~/assets/images/flag/@Model.SelectedLanguage?.ImageUrl" alt="">
+                                @Model.SelectedLanguage?.Name <i class="icon ion-chevron-down"></i>
+                            </button>
+                            <ul class="dropdown-menu" aria-labelledby="language">
+                                @foreach (var item in Model.Languages ?? new List<LanguageViewModel>())
+                                {
+                                    <li>
+                                        <a asp-controller="Localizer" asp-action="ChangeCulture" asp-route-culture="@item.IsoCode">
+                                            <img src="~/assets/images/flag/@item.ImageUrl" alt="">
+                                            @item.Name
+                                        </a>
+                                    </li>
+                                }
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </div> <!-- header menu nav -->
+        </div> <!-- header nav wrapper -->
+    </div> <!-- container -->
+</div>

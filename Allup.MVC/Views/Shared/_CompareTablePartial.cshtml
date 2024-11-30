@@ -1,0 +1,96 @@
+﻿@model List<ProductViewModel>
+
+<table class="table">
+    <tbody>
+        <tr>
+            <th>Product</th>
+            @foreach (var item in Model)
+            {
+                <td>
+                    <div class="product-image-title">
+                        <a class="product-image" href="#"><img src="~/assets/images/product/@item.CoverImageUrl" alt="product"></a>
+                        <a href="#" class="category">camera</a>
+                        <h5 class="title"><a href="#">@item.Name</a></h5>
+                    </div>
+                </td>
+            }
+        </tr>
+        <tr>
+            <th>Description</th>
+            @foreach (var item in Model)
+            {
+                <td>
+                    <div class="description">
+                        <p>@item.Description</p>
+                    </div>
+                </td>
+            }
+        </tr>
+        @*  <tr>
+                        <th>Price</th>
+                        <td>$29</td>
+                        <td>$27</td>
+                        <td>$39</td>
+                    </tr>
+                    <tr>
+                        <th>Color</th>
+                        <td>Yellow</td>
+                        <td>White</td>
+                        <td>Green</td>
+                    </tr>
+                    <tr>
+                        <th>Stock</th>
+                        <td>In Stock</td>
+                        <td>In Stock</td>
+                        <td>In Stock</td>
+                    </tr> *@
+        <tr>
+            <th>Add to cart</th>
+            <td><a href="#" class="main-btn main-btn-2"><i class="far fa-shopping-cart"></i> Add to Cart</a></td>
+            <td><a href="#" class="main-btn main-btn-2"><i class="far fa-shopping-cart"></i> Add to Cart</a></td>
+            <td><a href="#" class="main-btn main-btn-2"><i class="far fa-shopping-cart"></i> Add to Cart</a></td>
+        </tr>
+        <tr>
+            <th>Delete</th>
+            @foreach (var item in Model)
+            {
+                <td><a class="delete" onclick="removeFromCompare(@item.Id)"><i class="far fa-trash-alt"></i></a></td>
+            }
+        </tr>
+        <tr>
+            <th>Rating</th>
+            <td>
+                <ul class="rating">
+                    <li class="rating-on"><i class="fas fa-star"></i></li>
+                    <li class="rating-on"><i class="fas fa-star"></i></li>
+                    <li class="rating-on"><i class="fas fa-star"></i></li>
+                    <li class="rating-on"><i class="fas fa-star"></i></li>
+                    <li class=""><i class="fas fa-star"></i></li>
+                </ul>
+            </td>
+            <td>
+                <ul class="rating">
+                    <li class="rating-on"><i class="fas fa-star"></i></li>
+                    <li class="rating-on"><i class="fas fa-star"></i></li>
+                    <li class="rating-on"><i class="fas fa-star"></i></li>
+                    <li class="rating-on"><i class="fas fa-star"></i></li>
+                    <li class=""><i class="fas fa-star"></i></li>
+                </ul>
+            </td>
+            <td>
+                <ul class="rating">
+                    <li class="rating-on"><i class="fas fa-star"></i></li>
+                    <li class="rating-on"><i class="fas fa-star"></i></li>
+                    <li class="rating-on"><i class="fas fa-star"></i></li>
+                    <li class="rating-on"><i class="fas fa-star"></i></li>
+                    <li class=""><i class="fas fa-star"></i></li>
+                </ul>
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+ 
+<script>
+    document.getElementById("compareItemCount").innerHTML = "("+ @Model.Count+")";
+</script>

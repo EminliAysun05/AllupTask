@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Academy.Mvc.Consume.props" />
+</Project>

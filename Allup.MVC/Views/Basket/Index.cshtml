@@ -1,0 +1,107 @@
+﻿@model BasketViewModel
+
+<div class="basket-container">
+    <h1>Your Basket</h1>
+
+    @if (Model.Items == null || !Model.Items.Any())
+    {
+        <p>Your basket is empty.</p>
+    }
+    else
+    {
+        <div class="mini-cart">
+            <ul class="cart-items" id="basketItems">
+                @foreach (var item in Model.Items)
+                {
+                    <li>
+                        <div class="single-cart-item d-flex">
+                            <div class="cart-item-thumb">
+                                <a href="#" onclick="addToBasket(@item.ProductId)">
+                                    <img src="~/assets/images/product/@item.CoverImageUrl" alt="@item.Name" />
+                                </a>
+                                <span class="product-quantity">@item.Count x</span>
+                            </div>
+                            <div class="cart-item-content media-body">
+                                <h5 class="product-name">
+                                    <a href="single-product.html">@item.Name</a>
+                                </h5>
+                                <span class="product-price">@item.FormattedPrice</span>
+                                <a href="#" onclick="removeFromBasket(@item.ProductId)" class="product-close">
+                                    <i class="fal fa-times"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+                }
+            </ul>
+
+            <div class="price_content">
+                <div class="cart-total price_inline">
+                    <span class="label">Total</span>
+                    <span class="value" id="basketTotalAmount">€@Model.TotalAmount</span>
+                </div>
+            </div>
+
+            <div class="checkout text-center">
+                <a href="checkout.html" class="main-btn">Checkout</a>
+            </div>
+        </div>
+    }
+</div>
+
+<script>
+    // Basket item count update script
+    document.getElementById("basketItemCount").innerHTML = `(@Model.Count)`;
+
+    // Add to Basket
+    function addToBasket(productId) {
+        fetch('/Basket/Add', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(productId) // JSON formatında productId göndərilir
+        })
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error('Network response was not ok');
+                }
+                return response.json();
+            })
+            .then(data => {
+                if (data.success) {
+                    document.getElementById("basketItemCount").innerHTML = `(${data.basketItemCount})`;
+                    alert("Product added to basket!");
+                } else {
+                    alert("Failed to add product to basket.");
+                }
+            })
+            .catch(error => {
+                console.error('Error:', error);
+                alert("An error occurred while adding the product to the basket.");
+            });
+    }
+
+
+    // Remove from Basket
+    function removeFromBasket(productId) {
+        fetch(`/Basket/Remove?productId=${productId}`, {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            }
+        })
+            .then(response => response.json())
+            .then(data => {
+                if (data.success) {
+                    location.reload(); // Reload to reflect changes
+                } else {
+                    alert("Failed to remove product from basket.");
+                }
+            })
+            .catch(error => {
+                console.error('Error:', error);
+                alert("An error occurred while removing the product from the basket.");
+            });
+    }
+</script>

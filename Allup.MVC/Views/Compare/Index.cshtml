@@ -1,0 +1,26 @@
+﻿@model List<ProductViewModel>
+<!--====== Breadcrumb Part Start ======-->
+
+<div class="breadcrumb-area">
+    <div class="container-fluid custom-container">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                <li class="breadcrumb-item active">Compare</li>
+            </ol>
+        </nav>
+    </div> <!-- container -->
+</div>
+
+<!--====== Breadcrumb Part Ends ======-->
+<!--====== Compare Part Start ======-->
+
+<section class="compare-page pt-10">
+    <div class="container-fluid custom-container">
+        <div class="compare-table table-responsive mt-30" id="compareTableDiv">
+            <partial name="_CompareTablePartial" model="@Model"></partial>
+        </div>
+    </div>
+</section>
+
+<!--====== Compare Part Ends ======-->
